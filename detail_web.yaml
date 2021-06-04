@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: usian-detail-web
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  rabbitmq:
+    host: 192.168.18.135
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+server:
+  port: 8097
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/

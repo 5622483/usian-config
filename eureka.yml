@@ -1,0 +1,13 @@
+server:
+  port: 8761 #端口号
+eureka:
+  client:
+    register-with-eureka: false #把自己注册到eureka服务列表
+    fetch-registry: false #拉取eureka服务信息
+spring:
+  rabbitmq:
+    host: 192.168.18.135
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
