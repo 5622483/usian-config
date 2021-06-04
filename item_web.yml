@@ -1,6 +1,6 @@
 spring:
   application:
-    name: usian-item-web
+    name: usian-item-web11
   jackson:
       date-format: yyyy-MM-dd HH:mm:ss
       time-zone: GMT+8
